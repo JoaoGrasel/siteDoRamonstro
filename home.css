@@ -1,12 +1,14 @@
 div.video-background {
     background: #FFFFE2;
-    border: 1px  #bbb;
-    margin-top: 10px;
+    border: 30px  #bbb;
+    margin-top: 150px;
     margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
     padding: 5px;
     text-align: center;
     display: block;
-    border-radius: 10px;
-   -moz-border-radius: 10px;
-   -webkit-border-radius: 10px;
+    border-radius: 30px;
+   -moz-border-radius: 30px;
+   -webkit-border-radius: 30px;
 }
