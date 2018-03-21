@@ -1,16 +1,10 @@
 .content {
-    background: #FFFFE2;
-    border: 10px  #bbb;
     margin-top: 100px;
     margin-bottom: 10px;
     margin-right: auto;
     margin-left: auto;
     padding: 5px;
-    text-align: center;
     display: block;
-    border-radius: 10px;
-   -moz-border-radius: 30px;
-   -webkit-border-radius: 30px;
 }
 
 .video{
@@ -25,7 +19,13 @@ footer{
     width: 100%;
     background-color: dark;
     color: white;
-    text-align: center;
 }
 
+.icons{
+    width: 64px;
+    height: 32px;
+}
 
+ul li{
+    display: inline;
+}
