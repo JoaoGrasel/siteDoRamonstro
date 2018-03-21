@@ -6,6 +6,7 @@ window.onload = function() {
         else
             video.pause();
     }
+    
     document.getElementById("pause").onclick = function() {
         document.getElementsByTagName('video')[0].pause();
     };

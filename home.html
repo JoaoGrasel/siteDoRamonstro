@@ -6,12 +6,10 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet"  href="home.css"/>
-		<link rel=""
-
+		<link rel="">
 		<title>Ramonxtros</title>
 	</head>
 	<body>
-
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			<div class="container-fluid">
 	  			<a class="navbar-brand" href="#">Ramonxtros</a>
@@ -36,23 +34,27 @@
 
 		<div class="container">
 			<div class="content">	
-				<div class="row">
-					<video class="video" controls="controls">
-						<source src="src/video/video1.mp4" type="video/mp4">
-							<object data="">
-								<embed src="src/video/video1.mp4"></embed>
-							</object>
-					</video>
-				</div>		
-				<div class="row">
-					<ul class="video-menu">
-						<li><img id="play" src="src/open-iconic-master/svg/media-play.svg" alt="media-play" class="icons"></li>
-						<li><img id="pause" src="src/open-iconic-master/svg/media-pause.svg" alt="media-pause" class="icons"></li>
-						<li><img id="stop" src="src/open-iconic-master/svg/media-stop.svg" alt="media-stop" class="icons"></li>
-					</ul>
-                    <script type="text/javascript" src="VideoControl.js"></script>
-				</div>
-			</div>
+                <div class="row">
+                    <div class="col-2 align-self-center">
+                        <div class="video-menu">    
+                            <ul>
+                                <li><img id="play" src="src/open-iconic-master/svg/media-play.svg" alt="media-play" class="icons"></li>
+                                <li><img id="pause" src="src/open-iconic-master/svg/media-pause.svg" alt="media-pause" class="icons"></li>
+                                <li><img id="stop" src="src/open-iconic-master/svg/media-stop.svg" alt="media-stop" class="icons"></li>
+                            </ul>
+                        </div>
+                            <script type="text/javascript" src="VideoControl.js"></script>
+                    </div>
+                    <div class="col-8">
+                        <video class="video" preload="metadata" >
+                            <source src="src/video/video1.mp4" type="video/mp4">
+                                <object data="">
+                                    <embed src="src/video/video1.mp4"></embed>
+                                </object>
+                        </video>
+                    </div>		
+                </div>
+        </div>
 		</div> 
 
 
