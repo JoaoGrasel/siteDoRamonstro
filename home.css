@@ -13,9 +13,11 @@
 }
 
 .video-menu{
-    border: 40px;
-    border-color: black;
-    padding: 20px;
+    width: 100px;
+    align-content: space-around;
+    border: 5px solid black;
+    padding: 25px;
+    margin: 25px;
 }
 
 .icons{
