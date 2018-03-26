@@ -14,8 +14,7 @@ footer{
     color: white;
 }
 
-ul li{
-    display: inline-grid;
+.item{
     width: 26px;
     height: 26px;
 }
@@ -31,4 +30,9 @@ video{
     height: auto;
 }
 
+#text-footer{
+    text-align: right;
+    vertical-align: middle;
+    display: table-cell
+}
 
